@@ -20,13 +20,13 @@ mv /c/Program\ Files/Git/etc/profile.d/git-prompt.sh /c/Program\ Files/Git/etc/p
 ~~~
 
 
-### Copy the script
+### Copy the script (final step)
 ~~~
 cp Gitbash-Remove-MINGW64/git-prompt.sh /c/Program\ Files/Git/etc/profile.d/
 ~~~
 
 
-## Back to default script
+## If you miss to see the `MINGW64` (Back to default script)
 ~~~
 rm -rf /c/Program\ Files/Git/etc/profile.d/git-prompt.sh
 mv /c/Program\ Files/Git/etc/profile.d/git-prompt.sh.bak /c/Program\ Files/Git/etc/profile.d/git-prompt.sh
